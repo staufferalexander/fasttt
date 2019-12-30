@@ -1,20 +1,20 @@
-simulate_stop_dataset <- function(df, post, noise=0) {
+simulate_stop_dataset = function(df, post, noise=0) {
   # Simulates a new dataset using the stop model where each race-department threshold with a random error ~ N(0,se=noise). 
   message(sprintf("Simulating stop dataset with noise %2.3f", noise))
   
   # extract police department, race, and number of stops
-  nraces <- length(unique(df$driver_race))
-  n      <- integer(nrow(df))
+  nraces = length(unique(df$driver_race))
+  n      = integer(nrow(df))
   
   # initialize vectors
-  searches_noisy    <- n
-  hits_noisy        <- n
-  thresh_noisy      <- n
+  searches_noisy    = n
+  hits_noisy        = n
+  thresh_noisy      = n
   
   # extract posterior means for parameters
-  phi    <- colMeans(post$phi)
-  delta    <- colMeans(post$delta)
-  t        <- df$thresholds
+  phi    = colMeans(post$phi)
+  delta    = colMeans(post$delta)
+  t        = df$thresholds
   
   # loop over precincts. For each precinct, randomly sample from
   for(d in unique(df$location_variable)){
@@ -39,10 +39,10 @@ simulate_stop_dataset <- function(df, post, noise=0) {
       for(r_i in 1:nraces){  # race order is NOT necessarily White-Black-Hispanic here, it is whatever order  
         new_r[multinomial_draw[r_i,] == 1] = r_i
       }
-      t_noisy    <- inv.logit(logit(precinct_thresholds[new_r]) + rnorm(n_draws, mean=0, sd=noise))
+      t_noisy    = inv.logit(logit(precinct_thresholds[new_r]) + rnorm(n_draws, mean=0, sd=noise))
       signal_new = draw_from_signal_distribution(n_draws, phi = precinct_phi[new_r], delta = precinct_delta[new_r], sigma_g = 1) %>% 
         sample_frac() # shuffle
-      p_guilt    <- signal_to_p(signal_new$signal_samples, phi = precinct_phi[new_r], delta = precinct_delta[new_r], sigma_g = 1)
+      p_guilt    = signal_to_p(signal_new$signal_samples, phi = precinct_phi[new_r], delta = precinct_delta[new_r], sigma_g = 1)
       r = c(r, new_r)
       signal = bind_rows(signal, signal_new)
       searches = c(searches, p_guilt > t_noisy)
@@ -60,7 +60,7 @@ simulate_stop_dataset <- function(df, post, noise=0) {
   }
   
   # return simulated dataset along with aggregate search & hit rates
-  df <- df %>% 
+  df = df %>% 
     mutate(t_baseline   = t,
            num_searches = searches_noisy,
            num_hits     = hits_noisy)
@@ -68,28 +68,28 @@ simulate_stop_dataset <- function(df, post, noise=0) {
 }
 
 
-simulate_search_dataset <- function(df, post, noise=0) {
+simulate_search_dataset = function(df, post, noise=0) {
   # Simulates a new dataset using the search model where each race-department threshold with a random error ~ N(0,se=noise). 
 
   # extract police department, race, and number of stops
-  nraces <- length(unique(df$driver_race))
-  n      <- integer(nrow(df))
+  nraces = length(unique(df$driver_race))
+  n      = integer(nrow(df))
   
   # initialize vectors
-  searches_noisy    <- n
-  hits_noisy        <- n
-  thresh_noisy      <- n
+  searches_noisy    = n
+  hits_noisy        = n
+  thresh_noisy      = n
   
   # extract posterior means for parameters
-  phi_r    <- colMeans(post$phi_r)
-  phi_d    <- colMeans(post$phi_d)
-  delta_r <- colMeans(post$delta_r)
-  delta_d <- colMeans(post$delta_d)
-  t        <- df$thresholds
+  phi_r    = colMeans(post$phi_r)
+  phi_d    = colMeans(post$phi_d)
+  delta_r = colMeans(post$delta_r)
+  delta_d = colMeans(post$delta_d)
+  t       = df$thresholds
   
   for (i in 1:nrow(df)) {
-    r <- as.integer(df$driver_race[i])
-    d <- as.integer(df$location_variable[i])
+    r = as.integer(df$driver_race[i])
+    d = as.integer(df$location_variable[i])
     nr_stops = df$num_stops[i]
     
     phi    = inv.logit(phi_d[d] + phi_r[r])
@@ -97,21 +97,21 @@ simulate_search_dataset <- function(df, post, noise=0) {
     
     # draw probability of posessing contraband for each stop in the race-department pair
     signal = draw_from_signal_distribution(nr_stops, phi = phi, delta = delta, sigma_g = 1)
-    p_guilt    <- signal_to_p(signal$signal_samples, phi = phi, delta = delta, sigma_g = 1)
+    p_guilt    = signal_to_p(signal$signal_samples, phi = phi, delta = delta, sigma_g = 1)
     
     # perturb threshold:  t'_rd = t_rd + N(mu=0, se=noise)
-    t_noisy    <- inv.logit(rep(logit(t[i]), nr_stops) + rnorm(nr_stops, mean=0, sd=noise))
+    t_noisy    = inv.logit(rep(logit(t[i]), nr_stops) + rnorm(nr_stops, mean=0, sd=noise))
     
     # update results
-    searches_noisy[i] <- sum(p_guilt > t_noisy)
-    hits_noisy[i]     <- sum((signal$guilty == 'guilty') & (p_guilt > t_noisy))
-    thresh_noisy[i]   <- mean(t_noisy)
+    searches_noisy[i] = sum(p_guilt > t_noisy)
+    hits_noisy[i]     = sum((signal$guilty == 'guilty') & (p_guilt > t_noisy))
+    thresh_noisy[i] = mean(t_noisy)
     
     
   }
   
   # return simulated dataset along with aggregate search & hit rates
-  df <- df %>% 
+  df = df %>% 
     mutate(t_baseline   = t,
            t_noisy      = thresh_noisy,
            num_searches = searches_noisy,

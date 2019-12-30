@@ -4,7 +4,7 @@ source('run_mixture_mcmc.R')
 
 # Which steps of the analysis to run. 
 remake_data = FALSE
-rerun_all_mixture_frisk_models = FALSE
+rerun_all_mixture_frisk_models = TRUE
 rerun_all_old_frisk_models = FALSE
 rerun_all_mixture_stop_models = FALSE
 rerun_all_old_stop_models = FALSE

@@ -1,6 +1,7 @@
-source('mixture_analysis.R')
+setwd('/Users/staufferkm/Desktop/gitrepos/fasttt/')
+source('/Users/staufferkm/Desktop/gitrepos/fasttt/mixture_analysis.R')
 
-get_stan_data = function(model_file, obs){
+get_stan_data = function(model_file, obs){  
   if(model_file == 'working_countrywide_mixture.stan'){
     stan_data = with(obs, list(
       N = nrow(obs),
@@ -53,7 +54,7 @@ get_stan_initialization = function(model_file, stan_data){
   if(model_file %in% c(new_frisk_model_name, new_stop_model_name)){
     init_fn = 'random' # checked. No special initialization needed. 
   }else if(model_file %in% c(old_frisk_model_name, old_stop_model_name)){
-    initializer <- function(num_obs, num_races, num_locations) {	
+    initializer = function(num_obs, num_races, num_locations) {	
       # force immediate evaluation of arguments
       force(num_obs); force(num_races); force(num_locations);
       function() {
@@ -67,9 +68,9 @@ get_stan_initialization = function(model_file, stan_data){
         )
       }
     }
-    init_fn <- initializer(stan_data$N, stan_data$R, stan_data$D)
+    init_fn = initializer(stan_data$N, stan_data$R, stan_data$D)
   }else if(model_file == 'working_countrywide_mixture.stan'){ # this gives an example of how to fit the model on the national traffic stops data. 
-    initializer <- function(num_obs, num_races, num_depts, num_states) {	
+    initializer = function(num_obs, num_races, num_depts, num_states) {	
       # force immediate evaluation of arguments
       force(num_obs); force(num_races); force(num_depts); force(num_states);
       function() {
@@ -85,7 +86,7 @@ get_stan_initialization = function(model_file, stan_data){
         )
       }
     }
-    init_fn <- initializer(stan_data$N, stan_data$R, stan_data$D, stan_data$K)
+    init_fn = initializer(stan_data$N, stan_data$R, stan_data$D, stan_data$K)
   }else{
     message("Error: not a valid model name.")
     stopifnot(FALSE)
@@ -93,7 +94,7 @@ get_stan_initialization = function(model_file, stan_data){
   return(init_fn)
 }
 
-run_mixture_mcmc <- function(stops, output_filename, iter = 5000, warmup = NULL, chains = 5, adapt_delta = 0.95, max_treedepth = 12, sample_from_prior = FALSE, verbose = FALSE, simulation=FALSE, model_file = 'mixture_model.stan') {
+run_mixture_mcmc = function(stops, output_filename, iter = 5000, warmup = NULL, chains = 5, adapt_delta = 0.95, max_treedepth = 12, sample_from_prior = FALSE, verbose = TRUE, simulation=FALSE, model_file = 'model_mixture.stan') {
   # checked. 
   if (is.null(warmup)) {
     if (sample_from_prior) {
@@ -106,8 +107,8 @@ run_mixture_mcmc <- function(stops, output_filename, iter = 5000, warmup = NULL,
   obs = stops
 
   # check model identifiability
-  r <- length(unique(obs$driver_race))
-  d <- length(unique(obs$location_variable))
+  r = length(unique(obs$driver_race))
+  d = length(unique(obs$location_variable))
   if (! (r >= 3 & d >= 5)) {
     stop('Not enough departments to constrain estimates')
   }
@@ -122,7 +123,7 @@ run_mixture_mcmc <- function(stops, output_filename, iter = 5000, warmup = NULL,
   my_model = stan_model(paste0('stan_models/', model_file))
   t1 = now()
   message('Starting sampling now!')
-  fit <- sampling(my_model, data = stan_data, iter=iter, init = init_fn, chains=chains, cores=chains, refresh = 50, warmup = warmup, control = list(adapt_delta = adapt_delta, max_treedepth = max_treedepth, adapt_engaged = !sample_from_prior), verbose = verbose, diagnostic_file = paste0(output_filename, '_diag.txt'))
+  fit = rstan::sampling(my_model, data = stan_data, iter=iter, init = init_fn, chains=chains, cores=chains, refresh = 50, warmup = warmup, control = list(adapt_delta = adapt_delta, max_treedepth = max_treedepth, adapt_engaged = !sample_from_prior), verbose = verbose, diagnostic_file = paste0(output_filename, '_diag.txt'))
   seconds_required = as.numeric(now() - t1, units = "secs")
   post = rstan::extract(fit)
   s = summary(fit)
@@ -137,11 +138,12 @@ run_mixture_mcmc <- function(stops, output_filename, iter = 5000, warmup = NULL,
   save(file=paste0(output_filename, '.RData'), obs, post, fit, seconds_required, Rhat)
 }
 
-run_threshold_test <- function(file_prefix, model_file){
+run_threshold_test = function(file_prefix, model_file){
   #Checked. This actually runs the threshold test. 
   input_file = paste0(base_input_dir, file_prefix, '.RData')
   stopifnot(file.exists(input_file))
-  stopifnot(file.exists(paste0('stan_models/', model_file)))
+  model_file1 = paste0(base_input_dir, 'stan_models/', model_file) #added this in  -KMA
+  stopifnot(file.exists(model_file1)) #changed this to  model_file1  -KMA
   message(sprintf("Loading %s", input_file))
   load(input_file)
   model_name = gsub('.stan', '', model_file)

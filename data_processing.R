@@ -1,11 +1,11 @@
 read_in_stop_and_frisk_data = function(){
   # Checked. 
   load(stop_and_frisk_data_path)
-  stops = filter(stops, year >= 2008, year <= 2012)
+#  stops = filter(stops, year >= 2008, year <= 2012) ## I commented this out -KMA
   stops$suspect.race = as.character(stops$suspect.race) 
   stops$suspect.race = plyr::mapvalues(stops$suspect.race, 
-                                       c('black', 'black hispanic', 'white', 'white hispanic'), 
-                                       c('Black', 'Hispanic', 'White', 'Hispanic'))
+                                       c('black', 'white', 'white hispanic'), #('black', 'black hispanic', 'white', 'white hispanic'),
+                                       c('Black', 'White', 'Hispanic')) #c('Black', 'Hispanic', 'White', 'Hispanic'))
   
   stops = filter(stops, suspect.race %in% c('Black', 'Hispanic', 'White')) %>%
     rename(driver_race = suspect.race, 
@@ -151,7 +151,7 @@ make_stop_and_frisk_dataframe = function(analysis_to_conduct,
 }
 
 create_stops_per_precinct_df = function(){
-  load(paste0(base_input_dir, 'nyc_stop_and_frisk_search_decision.RData'))
+  load(paste0(base_input_dir, 'SanDiegoPoliceRipaStopsTrafficOnly.RData')) ###need to make this new each time
   stops = stops %>% 
     group_by(location_variable) %>%
     summarise(total_stops = sum(num_stops)) %>% 

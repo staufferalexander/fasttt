@@ -45,16 +45,16 @@ get_thresholds_from_post = function(post, obs, quantile_to_report = NULL){
   return(thresholds)
 }
 
-get_thresholds_from_post_old_model <- function(post, obs){
+get_thresholds_from_post_old_model = function(post, obs){
   # Checked (old model).
-  obs$thresholds    <- colMeans(post$t_i)
-  ci    <- apply(post$t_i, 2, function(x) quantile(x, probs = c(0.025, 0.975))) 
+  obs$thresholds = colMeans(post$t_i)
+  ci = apply(post$t_i, 2, function(x) quantile(x, probs = c(0.025, 0.975))) 
   obs$low_ci  = ci[1,]
   obs$high_ci = ci[2,]
   return(obs)  
 }
 
-search_rate_ppc <- function(obs, post, filename, ylim=0.03) {
+search_rate_ppc = function(obs, post, filename, ylim=0.03) {
   # Checked. 
   obs$pred_search_rate = colMeans(post$search_rate)
   p = ggplot(data=obs, aes(x=pred_search_rate, y=pred_search_rate-search_rate)) +
@@ -71,7 +71,7 @@ search_rate_ppc <- function(obs, post, filename, ylim=0.03) {
          height = 4)
 }
 
-hit_rate_ppc <- function(obs, post, filename, ylim=0.3) {
+hit_rate_ppc = function(obs, post, filename, ylim=0.3) {
   # Checked. 
   obs$pred_hit_rate = colMeans(post$hit_rate)
   p = ggplot(data=obs, aes(x=pred_hit_rate, y=hit_rate-pred_hit_rate)) +
@@ -121,7 +121,7 @@ make_multinomial_search_rate_ppc = function(obs, post, size_column, filename){
          height = 4)
 }
 
-plot_signal <- function(obs, post, filename, xlim = c(.001,0.5), ymax = 5, for_paper = FALSE){
+plot_signal = function(obs, post, filename, xlim = c(.001,0.5), ymax = 5, for_paper = FALSE){
   # Checked. Very specific to stop-and-frisk data: weights by stops-per-precinct. 
   races = levels(obs$driver_race)  
   stopifnot(sum(races == c('White', 'Black', 'Hispanic')) == 3)
@@ -174,7 +174,7 @@ plot_signal <- function(obs, post, filename, xlim = c(.001,0.5), ymax = 5, for_p
       black_guilty = c(black_guilty, guilty_indicator)
     }
   }
-  p_plt <- ggplot() + 
+  p_plt = ggplot() + 
     geom_vline(data = threshold, aes(xintercept = weighted_threshold, color=driver_race), linetype="dashed")+
     geom_density(aes(x = white_samples), color = 'blue') +
     geom_density(aes(x = black_samples), color = 'black') +
@@ -189,7 +189,7 @@ plot_signal <- function(obs, post, filename, xlim = c(.001,0.5), ymax = 5, for_p
   df = data.frame(guilty = c(white_guilty, black_guilty, hispanic_guilty), 
                   signal = c(white_signal, black_signal, hispanic_signal), 
                   race = c(rep('White', length(white_guilty)), rep('Black', length(black_guilty)), rep('Hispanic', length(hispanic_guilty)))) 
-  signal_plt <- ggplot(df) + 
+  signal_plt = ggplot(df) + 
     geom_density(aes(x = signal, y = ..count.., group = guilty)) + 
     scale_x_continuous('Signal', expand = c(0, 0)) + 
     scale_y_continuous('\nDensity', breaks = c(), expand = c(0, 0)) + 
@@ -266,16 +266,16 @@ get_threshold_CIs_for_state = function(obs, post){
 }
 
 
-make_threshold_plot <- function(obs, var, filename, size_column, breaks, limits, log_scale = TRUE) {
+make_threshold_plot = function(obs, var, filename, size_column, breaks, limits, log_scale = TRUE) {
   #Checked. 
   obs = data.frame(obs)
   obs$size_column = obs[,size_column] # this column is used to size circles. 
-  df <- obs %>%
+  df = obs %>%
     filter(driver_race == 'White') %>%
     right_join(obs %>% filter(driver_race != 'White'), by='location_variable') %>%
     rename(white_threshold=thresholds.x, minority_threshold = thresholds.y, minority_n = size_column.y, minority = driver_race.y)
   
-  p <- ggplot(df) +
+  p = ggplot(df) +
     geom_point(aes(x=white_threshold, y=minority_threshold, size=minority_n), shape=1, alpha=0.6) +
     facet_grid(.~minority) +
     geom_abline(slope=1, intercept=0, linetype='dashed') +
