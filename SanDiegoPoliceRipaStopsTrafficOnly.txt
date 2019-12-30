@@ -1,0 +1,774 @@
+location_variable	driver_race	num_stops	num_searches	num_hits	state	city	county
+111	Asian	106	5.0	2.0	CA	San_Diego	San_Diego
+111	Black	130	14.0	2.0	CA	San_Diego	San_Diego
+111	Hispanic	339	25.0	7.0	CA	San_Diego	San_Diego
+111	Middle Eastern or South Asian	66	1.0	0	CA	San_Diego	San_Diego
+111	Native American	2	1.0	1.0	CA	San_Diego	San_Diego
+111	Pacific Islander	11	0	0	CA	San_Diego	San_Diego
+111	White	578	54.0	16.0	CA	San_Diego	San_Diego
+112	Asian	32	0	0	CA	San_Diego	San_Diego
+112	Black	39	3.0	1.0	CA	San_Diego	San_Diego
+112	Hispanic	102	5.0	0	CA	San_Diego	San_Diego
+112	Middle Eastern or South Asian	25	0	1.0	CA	San_Diego	San_Diego
+112	Pacific Islander	4	0	0	CA	San_Diego	San_Diego
+112	White	289	25.0	8.0	CA	San_Diego	San_Diego
+113	Asian	25	1.0	0	CA	San_Diego	San_Diego
+113	Black	26	3.0	0	CA	San_Diego	San_Diego
+113	Hispanic	79	4.0	1.0	CA	San_Diego	San_Diego
+113	Middle Eastern or South Asian	12	1.0	1.0	CA	San_Diego	San_Diego
+113	Pacific Islander	5	0	0	CA	San_Diego	San_Diego
+113	White	245	22.0	9.0	CA	San_Diego	San_Diego
+114	Asian	76	2.0	0	CA	San_Diego	San_Diego
+114	Black	100	9.0	3.0	CA	San_Diego	San_Diego
+114	Hispanic	308	21.0	7.0	CA	San_Diego	San_Diego
+114	Middle Eastern or South Asian	52	0	0	CA	San_Diego	San_Diego
+114	Native American	2	0	0	CA	San_Diego	San_Diego
+114	Pacific Islander	12	0	0	CA	San_Diego	San_Diego
+114	White	541	48.0	11.0	CA	San_Diego	San_Diego
+115	Asian	189	1.0	1.0	CA	San_Diego	San_Diego
+115	Black	75	3.0	1.0	CA	San_Diego	San_Diego
+115	Hispanic	203	7.0	0	CA	San_Diego	San_Diego
+115	Middle Eastern or South Asian	98	2.0	0	CA	San_Diego	San_Diego
+115	Native American	1	0	0	CA	San_Diego	San_Diego
+115	Pacific Islander	9	1.0	0	CA	San_Diego	San_Diego
+115	White	545	20.0	10.0	CA	San_Diego	San_Diego
+116	Asian	78	2.0	1.0	CA	San_Diego	San_Diego
+116	Black	100	7.0	1.0	CA	San_Diego	San_Diego
+116	Hispanic	296	19.0	7.0	CA	San_Diego	San_Diego
+116	Middle Eastern or South Asian	54	2.0	0	CA	San_Diego	San_Diego
+116	Native American	6	0	0	CA	San_Diego	San_Diego
+116	Pacific Islander	19	3.0	0	CA	San_Diego	San_Diego
+116	White	916	59.0	19.0	CA	San_Diego	San_Diego
+121	Asian	93	2.0	0	CA	San_Diego	San_Diego
+121	Black	170	10.0	3.0	CA	San_Diego	San_Diego
+121	Hispanic	321	9.0	1.0	CA	San_Diego	San_Diego
+121	Middle Eastern or South Asian	76	1.0	0	CA	San_Diego	San_Diego
+121	Native American	1	0	0	CA	San_Diego	San_Diego
+121	Pacific Islander	22	1.0	0	CA	San_Diego	San_Diego
+121	White	1181	39.0	10.0	CA	San_Diego	San_Diego
+122	Asian	195	8.0	2.0	CA	San_Diego	San_Diego
+122	Black	358	34.0	6.0	CA	San_Diego	San_Diego
+122	Hispanic	794	42.0	5.0	CA	San_Diego	San_Diego
+122	Middle Eastern or South Asian	202	4.0	0	CA	San_Diego	San_Diego
+122	Native American	5	0	0	CA	San_Diego	San_Diego
+122	Pacific Islander	29	3.0	0	CA	San_Diego	San_Diego
+122	White	2798	158.0	44.0	CA	San_Diego	San_Diego
+123	Asian	25	3.0	0	CA	San_Diego	San_Diego
+123	Black	76	9.0	2.0	CA	San_Diego	San_Diego
+123	Hispanic	160	16.0	5.0	CA	San_Diego	San_Diego
+123	Middle Eastern or South Asian	28	1.0	0	CA	San_Diego	San_Diego
+123	Native American	1	0	0	CA	San_Diego	San_Diego
+123	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+123	White	457	41.0	15.0	CA	San_Diego	San_Diego
+124	Asian	72	2.0	1.0	CA	San_Diego	San_Diego
+124	Black	45	0	0	CA	San_Diego	San_Diego
+124	Hispanic	153	4.0	1.0	CA	San_Diego	San_Diego
+124	Middle Eastern or South Asian	55	0	0	CA	San_Diego	San_Diego
+124	Pacific Islander	6	0	0	CA	San_Diego	San_Diego
+124	White	627	15.0	3.0	CA	San_Diego	San_Diego
+125	Asian	2	0	0	CA	San_Diego	San_Diego
+125	Black	2	0	0	CA	San_Diego	San_Diego
+125	Hispanic	6	0	0	CA	San_Diego	San_Diego
+125	Middle Eastern or South Asian	1	0	0	CA	San_Diego	San_Diego
+125	White	20	0	0	CA	San_Diego	San_Diego
+126	Asian	5	0	0	CA	San_Diego	San_Diego
+126	Black	4	0	0	CA	San_Diego	San_Diego
+126	Hispanic	13	0	0	CA	San_Diego	San_Diego
+126	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+126	White	23	2.0	1.0	CA	San_Diego	San_Diego
+231	Asian	65	0	0	CA	San_Diego	San_Diego
+231	Black	15	0	0	CA	San_Diego	San_Diego
+231	Hispanic	87	0	0	CA	San_Diego	San_Diego
+231	Middle Eastern or South Asian	46	0	0	CA	San_Diego	San_Diego
+231	Pacific Islander	12	0	0	CA	San_Diego	San_Diego
+231	White	286	7.0	2.0	CA	San_Diego	San_Diego
+232	Asian	31	0	0	CA	San_Diego	San_Diego
+232	Black	13	0	0	CA	San_Diego	San_Diego
+232	Hispanic	46	1.0	1.0	CA	San_Diego	San_Diego
+232	Middle Eastern or South Asian	30	0	0	CA	San_Diego	San_Diego
+232	Pacific Islander	7	1.0	1.0	CA	San_Diego	San_Diego
+232	White	308	0	0	CA	San_Diego	San_Diego
+233	Asian	59	0	0	CA	San_Diego	San_Diego
+233	Black	30	2.0	0	CA	San_Diego	San_Diego
+233	Hispanic	56	5.0	0	CA	San_Diego	San_Diego
+233	Middle Eastern or South Asian	31	0	0	CA	San_Diego	San_Diego
+233	Pacific Islander	6	0	0	CA	San_Diego	San_Diego
+233	White	152	6.0	0	CA	San_Diego	San_Diego
+234	Asian	75	1.0	1.0	CA	San_Diego	San_Diego
+234	Black	44	0	0	CA	San_Diego	San_Diego
+234	Hispanic	122	1.0	0	CA	San_Diego	San_Diego
+234	Middle Eastern or South Asian	59	0	0	CA	San_Diego	San_Diego
+234	Native American	1	0	0	CA	San_Diego	San_Diego
+234	Pacific Islander	12	1.0	0	CA	San_Diego	San_Diego
+234	White	444	3.0	1.0	CA	San_Diego	San_Diego
+235	Black	4	0	0	CA	San_Diego	San_Diego
+235	Hispanic	7	0	0	CA	San_Diego	San_Diego
+235	White	13	1.0	1.0	CA	San_Diego	San_Diego
+241	Asian	20	0	0	CA	San_Diego	San_Diego
+241	Black	7	0	0	CA	San_Diego	San_Diego
+241	Hispanic	29	2.0	0	CA	San_Diego	San_Diego
+241	Middle Eastern or South Asian	11	0	0	CA	San_Diego	San_Diego
+241	Native American	1	0	0	CA	San_Diego	San_Diego
+241	Pacific Islander	4	0	0	CA	San_Diego	San_Diego
+241	White	88	2.0	0	CA	San_Diego	San_Diego
+242	Asian	450	8.0	3.0	CA	San_Diego	San_Diego
+242	Black	141	11.0	4.0	CA	San_Diego	San_Diego
+242	Hispanic	295	9.0	1.0	CA	San_Diego	San_Diego
+242	Middle Eastern or South Asian	149	0	0	CA	San_Diego	San_Diego
+242	Native American	1	1.0	0	CA	San_Diego	San_Diego
+242	Pacific Islander	47	3.0	0	CA	San_Diego	San_Diego
+242	White	568	12.0	8.0	CA	San_Diego	San_Diego
+243	Asian	47	1.0	0	CA	San_Diego	San_Diego
+243	Black	29	0	0	CA	San_Diego	San_Diego
+243	Hispanic	82	6.0	0	CA	San_Diego	San_Diego
+243	Middle Eastern or South Asian	25	0	0	CA	San_Diego	San_Diego
+243	Pacific Islander	7	0	0	CA	San_Diego	San_Diego
+243	White	161	4.0	2.0	CA	San_Diego	San_Diego
+245	Hispanic	1	0	0	CA	San_Diego	San_Diego
+245	White	5	0	0	CA	San_Diego	San_Diego
+246	Asian	10	0	0	CA	San_Diego	San_Diego
+246	Black	1	0	0	CA	San_Diego	San_Diego
+246	Hispanic	7	1.0	0	CA	San_Diego	San_Diego
+246	Middle Eastern or South Asian	9	0	0	CA	San_Diego	San_Diego
+246	Pacific Islander	6	0	0	CA	San_Diego	San_Diego
+246	White	39	0	0	CA	San_Diego	San_Diego
+311	Asian	65	0	0	CA	San_Diego	San_Diego
+311	Black	163	17.0	9.0	CA	San_Diego	San_Diego
+311	Hispanic	202	10.0	3.0	CA	San_Diego	San_Diego
+311	Middle Eastern or South Asian	77	0	0	CA	San_Diego	San_Diego
+311	Native American	1	0	0	CA	San_Diego	San_Diego
+311	Pacific Islander	14	0	0	CA	San_Diego	San_Diego
+311	White	435	26.0	9.0	CA	San_Diego	San_Diego
+312	Asian	20	0	0	CA	San_Diego	San_Diego
+312	Black	23	1.0	0	CA	San_Diego	San_Diego
+312	Hispanic	54	1.0	0	CA	San_Diego	San_Diego
+312	Middle Eastern or South Asian	9	0	0	CA	San_Diego	San_Diego
+312	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+312	White	117	4.0	0	CA	San_Diego	San_Diego
+313	Asian	562	3.0	1.0	CA	San_Diego	San_Diego
+313	Black	277	14.0	5.0	CA	San_Diego	San_Diego
+313	Hispanic	714	18.0	4.0	CA	San_Diego	San_Diego
+313	Middle Eastern or South Asian	176	1.0	1.0	CA	San_Diego	San_Diego
+313	Native American	3	0	0	CA	San_Diego	San_Diego
+313	Pacific Islander	43	0	0	CA	San_Diego	San_Diego
+313	White	1390	25.0	13.0	CA	San_Diego	San_Diego
+314	Asian	6	0	0	CA	San_Diego	San_Diego
+314	Black	13	1.0	1.0	CA	San_Diego	San_Diego
+314	Hispanic	35	4.0	1.0	CA	San_Diego	San_Diego
+314	Middle Eastern or South Asian	4	0	0	CA	San_Diego	San_Diego
+314	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+314	White	31	1.0	1.0	CA	San_Diego	San_Diego
+315	Asian	124	3.0	1.0	CA	San_Diego	San_Diego
+315	Black	191	23.0	13.0	CA	San_Diego	San_Diego
+315	Hispanic	356	25.0	12.0	CA	San_Diego	San_Diego
+315	Middle Eastern or South Asian	107	2.0	2.0	CA	San_Diego	San_Diego
+315	Pacific Islander	14	1.0	1.0	CA	San_Diego	San_Diego
+315	White	744	86.0	33.0	CA	San_Diego	San_Diego
+316	Asian	11	0	0	CA	San_Diego	San_Diego
+316	Black	24	5.0	4.0	CA	San_Diego	San_Diego
+316	Hispanic	35	0	0	CA	San_Diego	San_Diego
+316	Middle Eastern or South Asian	7	0	0	CA	San_Diego	San_Diego
+316	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+316	White	39	0	0	CA	San_Diego	San_Diego
+321	Asian	40	3.0	1.0	CA	San_Diego	San_Diego
+321	Black	90	13.0	5.0	CA	San_Diego	San_Diego
+321	Hispanic	156	13.0	3.0	CA	San_Diego	San_Diego
+321	Middle Eastern or South Asian	32	0	0	CA	San_Diego	San_Diego
+321	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+321	White	309	21.0	8.0	CA	San_Diego	San_Diego
+322	Asian	13	0	0	CA	San_Diego	San_Diego
+322	Black	28	0	0	CA	San_Diego	San_Diego
+322	Hispanic	66	5.0	1.0	CA	San_Diego	San_Diego
+322	Middle Eastern or South Asian	20	0	0	CA	San_Diego	San_Diego
+322	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+322	White	157	4.0	1.0	CA	San_Diego	San_Diego
+323	Asian	6	0	0	CA	San_Diego	San_Diego
+323	Black	12	1.0	0	CA	San_Diego	San_Diego
+323	Hispanic	22	2.0	1.0	CA	San_Diego	San_Diego
+323	Middle Eastern or South Asian	9	0	0	CA	San_Diego	San_Diego
+323	White	65	3.0	2.0	CA	San_Diego	San_Diego
+324	Asian	10	0	0	CA	San_Diego	San_Diego
+324	Black	28	1.0	1.0	CA	San_Diego	San_Diego
+324	Hispanic	55	1.0	0	CA	San_Diego	San_Diego
+324	Middle Eastern or South Asian	9	0	0	CA	San_Diego	San_Diego
+324	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+324	White	161	4.0	0	CA	San_Diego	San_Diego
+325	Asian	12	1.0	0	CA	San_Diego	San_Diego
+325	Black	10	0	1.0	CA	San_Diego	San_Diego
+325	Hispanic	34	0	0	CA	San_Diego	San_Diego
+325	Middle Eastern or South Asian	7	0	0	CA	San_Diego	San_Diego
+325	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+325	White	77	3.0	2.0	CA	San_Diego	San_Diego
+326	Asian	38	1.0	1.0	CA	San_Diego	San_Diego
+326	Black	65	7.0	5.0	CA	San_Diego	San_Diego
+326	Hispanic	92	2.0	0	CA	San_Diego	San_Diego
+326	Middle Eastern or South Asian	22	0	0	CA	San_Diego	San_Diego
+326	Native American	2	1.0	0	CA	San_Diego	San_Diego
+326	Pacific Islander	6	0	0	CA	San_Diego	San_Diego
+326	White	152	7.0	3.0	CA	San_Diego	San_Diego
+327	Asian	19	1.0	1.0	CA	San_Diego	San_Diego
+327	Black	67	8.0	6.0	CA	San_Diego	San_Diego
+327	Hispanic	80	4.0	2.0	CA	San_Diego	San_Diego
+327	Middle Eastern or South Asian	20	0	0	CA	San_Diego	San_Diego
+327	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+327	White	103	6.0	1.0	CA	San_Diego	San_Diego
+431	Asian	35	1.0	1.0	CA	San_Diego	San_Diego
+431	Black	170	24.0	6.0	CA	San_Diego	San_Diego
+431	Hispanic	187	10.0	5.0	CA	San_Diego	San_Diego
+431	Middle Eastern or South Asian	14	1.0	0	CA	San_Diego	San_Diego
+431	Pacific Islander	7	0	0	CA	San_Diego	San_Diego
+431	White	59	3.0	0	CA	San_Diego	San_Diego
+432	Asian	24	1.0	1.0	CA	San_Diego	San_Diego
+432	Black	210	46.0	13.0	CA	San_Diego	San_Diego
+432	Hispanic	183	25.0	12.0	CA	San_Diego	San_Diego
+432	Middle Eastern or South Asian	10	1.0	0	CA	San_Diego	San_Diego
+432	Native American	1	0	0	CA	San_Diego	San_Diego
+432	Pacific Islander	4	2.0	1.0	CA	San_Diego	San_Diego
+432	White	56	14.0	6.0	CA	San_Diego	San_Diego
+433	Asian	26	1.0	0	CA	San_Diego	San_Diego
+433	Black	144	16.0	5.0	CA	San_Diego	San_Diego
+433	Hispanic	133	22.0	9.0	CA	San_Diego	San_Diego
+433	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+433	Native American	1	0	0	CA	San_Diego	San_Diego
+433	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+433	White	62	5.0	2.0	CA	San_Diego	San_Diego
+434	Asian	17	2.0	0	CA	San_Diego	San_Diego
+434	Black	109	23.0	1.0	CA	San_Diego	San_Diego
+434	Hispanic	114	20.0	4.0	CA	San_Diego	San_Diego
+434	Middle Eastern or South Asian	2	0	0	CA	San_Diego	San_Diego
+434	Native American	1	0	0	CA	San_Diego	San_Diego
+434	Pacific Islander	3	1.0	0	CA	San_Diego	San_Diego
+434	White	58	8.0	3.0	CA	San_Diego	San_Diego
+435	Asian	1	0	0	CA	San_Diego	San_Diego
+435	Black	4	1.0	0	CA	San_Diego	San_Diego
+435	Hispanic	4	0	0	CA	San_Diego	San_Diego
+435	Middle Eastern or South Asian	1	0	0	CA	San_Diego	San_Diego
+435	White	2	0	0	CA	San_Diego	San_Diego
+436	Asian	29	2.0	1.0	CA	San_Diego	San_Diego
+436	Black	198	19.0	5.0	CA	San_Diego	San_Diego
+436	Hispanic	115	13.0	6.0	CA	San_Diego	San_Diego
+436	Middle Eastern or South Asian	8	0	0	CA	San_Diego	San_Diego
+436	Native American	1	0	0	CA	San_Diego	San_Diego
+436	Pacific Islander	9	3.0	0	CA	San_Diego	San_Diego
+436	White	56	6.0	2.0	CA	San_Diego	San_Diego
+437	Asian	93	4.0	3.0	CA	San_Diego	San_Diego
+437	Black	187	42.0	10.0	CA	San_Diego	San_Diego
+437	Hispanic	180	14.0	10.0	CA	San_Diego	San_Diego
+437	Middle Eastern or South Asian	14	3.0	0	CA	San_Diego	San_Diego
+437	Pacific Islander	13	3.0	2.0	CA	San_Diego	San_Diego
+437	White	83	6.0	2.0	CA	San_Diego	San_Diego
+438	Asian	24	3.0	2.0	CA	San_Diego	San_Diego
+438	Black	52	5.0	1.0	CA	San_Diego	San_Diego
+438	Hispanic	94	14.0	5.0	CA	San_Diego	San_Diego
+438	Middle Eastern or South Asian	6	0	0	CA	San_Diego	San_Diego
+438	Pacific Islander	4	0	0	CA	San_Diego	San_Diego
+438	White	25	1.0	0	CA	San_Diego	San_Diego
+439	Asian	11	0	0	CA	San_Diego	San_Diego
+439	Black	16	1.0	0	CA	San_Diego	San_Diego
+439	Hispanic	19	2.0	0	CA	San_Diego	San_Diego
+439	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+439	White	9	0	0	CA	San_Diego	San_Diego
+441	Asian	32	3.0	0	CA	San_Diego	San_Diego
+441	Black	395	95.0	28.0	CA	San_Diego	San_Diego
+441	Hispanic	682	92.0	35.0	CA	San_Diego	San_Diego
+441	Middle Eastern or South Asian	16	1.0	0	CA	San_Diego	San_Diego
+441	Native American	1	0	0	CA	San_Diego	San_Diego
+441	Pacific Islander	6	0	0	CA	San_Diego	San_Diego
+441	White	99	21.0	3.0	CA	San_Diego	San_Diego
+442	Asian	12	2.0	0	CA	San_Diego	San_Diego
+442	Black	110	22.0	5.0	CA	San_Diego	San_Diego
+442	Hispanic	392	66.0	15.0	CA	San_Diego	San_Diego
+442	Middle Eastern or South Asian	5	1.0	1.0	CA	San_Diego	San_Diego
+442	Native American	2	0	0	CA	San_Diego	San_Diego
+442	Pacific Islander	6	2.0	0	CA	San_Diego	San_Diego
+442	White	56	10.0	3.0	CA	San_Diego	San_Diego
+443	Asian	8	2.0	1.0	CA	San_Diego	San_Diego
+443	Black	52	20.0	5.0	CA	San_Diego	San_Diego
+443	Hispanic	134	40.0	6.0	CA	San_Diego	San_Diego
+443	Middle Eastern or South Asian	6	2.0	0	CA	San_Diego	San_Diego
+443	Pacific Islander	3	1.0	0	CA	San_Diego	San_Diego
+443	White	29	11.0	3.0	CA	San_Diego	San_Diego
+444	Asian	17	2.0	0	CA	San_Diego	San_Diego
+444	Black	106	18.0	6.0	CA	San_Diego	San_Diego
+444	Hispanic	147	22.0	1.0	CA	San_Diego	San_Diego
+444	Middle Eastern or South Asian	2	0	0	CA	San_Diego	San_Diego
+444	Pacific Islander	4	1.0	1.0	CA	San_Diego	San_Diego
+444	White	38	4.0	0	CA	San_Diego	San_Diego
+445	Asian	7	3.0	0	CA	San_Diego	San_Diego
+445	Black	99	19.0	5.0	CA	San_Diego	San_Diego
+445	Hispanic	125	22.0	3.0	CA	San_Diego	San_Diego
+445	Middle Eastern or South Asian	1	0	0	CA	San_Diego	San_Diego
+445	Pacific Islander	5	1.0	0	CA	San_Diego	San_Diego
+445	White	29	1.0	0	CA	San_Diego	San_Diego
+446	Asian	36	2.0	0	CA	San_Diego	San_Diego
+446	Black	610	153.0	24.0	CA	San_Diego	San_Diego
+446	Hispanic	364	59.0	16.0	CA	San_Diego	San_Diego
+446	Middle Eastern or South Asian	6	0	0	CA	San_Diego	San_Diego
+446	Native American	1	0	0	CA	San_Diego	San_Diego
+446	Pacific Islander	17	1.0	1.0	CA	San_Diego	San_Diego
+446	White	90	10.0	3.0	CA	San_Diego	San_Diego
+447	Asian	18	4.0	1.0	CA	San_Diego	San_Diego
+447	Black	155	30.0	10.0	CA	San_Diego	San_Diego
+447	Hispanic	129	22.0	9.0	CA	San_Diego	San_Diego
+447	Middle Eastern or South Asian	6	0	0	CA	San_Diego	San_Diego
+447	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+447	White	50	16.0	5.0	CA	San_Diego	San_Diego
+451	Asian	46	3.0	1.0	CA	San_Diego	San_Diego
+451	Black	155	23.0	6.0	CA	San_Diego	San_Diego
+451	Hispanic	119	14.0	0	CA	San_Diego	San_Diego
+451	Middle Eastern or South Asian	9	0	0	CA	San_Diego	San_Diego
+451	Pacific Islander	2	2.0	0	CA	San_Diego	San_Diego
+451	White	56	7.0	1.0	CA	San_Diego	San_Diego
+452	Asian	18	2.0	1.0	CA	San_Diego	San_Diego
+452	Black	95	18.0	1.0	CA	San_Diego	San_Diego
+452	Hispanic	62	9.0	4.0	CA	San_Diego	San_Diego
+452	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+452	Pacific Islander	7	0	0	CA	San_Diego	San_Diego
+452	White	44	6.0	0	CA	San_Diego	San_Diego
+511	Asian	29	3.0	0	CA	San_Diego	San_Diego
+511	Black	245	51.0	14.0	CA	San_Diego	San_Diego
+511	Hispanic	750	120.0	17.0	CA	San_Diego	San_Diego
+511	Middle Eastern or South Asian	24	4.0	0	CA	San_Diego	San_Diego
+511	Native American	3	0	0	CA	San_Diego	San_Diego
+511	Pacific Islander	7	0	0	CA	San_Diego	San_Diego
+511	White	200	17.0	4.0	CA	San_Diego	San_Diego
+512	Asian	18	4.0	1.0	CA	San_Diego	San_Diego
+512	Black	290	53.0	14.0	CA	San_Diego	San_Diego
+512	Hispanic	887	154.0	36.0	CA	San_Diego	San_Diego
+512	Middle Eastern or South Asian	19	2.0	0	CA	San_Diego	San_Diego
+512	Native American	3	0	0	CA	San_Diego	San_Diego
+512	Pacific Islander	5	1.0	0	CA	San_Diego	San_Diego
+512	White	232	31.0	10.0	CA	San_Diego	San_Diego
+514	Asian	14	3.0	0	CA	San_Diego	San_Diego
+514	Black	79	13.0	6.0	CA	San_Diego	San_Diego
+514	Hispanic	239	37.0	9.0	CA	San_Diego	San_Diego
+514	Middle Eastern or South Asian	12	0	0	CA	San_Diego	San_Diego
+514	Native American	1	0	0	CA	San_Diego	San_Diego
+514	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+514	White	120	15.0	7.0	CA	San_Diego	San_Diego
+515	Asian	2	0	0	CA	San_Diego	San_Diego
+515	Black	51	9.0	3.0	CA	San_Diego	San_Diego
+515	Hispanic	170	24.0	11.0	CA	San_Diego	San_Diego
+515	Middle Eastern or South Asian	9	1.0	1.0	CA	San_Diego	San_Diego
+515	Pacific Islander	2	1.0	0	CA	San_Diego	San_Diego
+515	White	54	8.0	1.0	CA	San_Diego	San_Diego
+516	Asian	3	1.0	0	CA	San_Diego	San_Diego
+516	Black	46	9.0	2.0	CA	San_Diego	San_Diego
+516	Hispanic	147	33.0	11.0	CA	San_Diego	San_Diego
+516	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+516	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+516	White	53	8.0	5.0	CA	San_Diego	San_Diego
+517	Asian	4	0	0	CA	San_Diego	San_Diego
+517	Black	49	10.0	1.0	CA	San_Diego	San_Diego
+517	Hispanic	122	15.0	7.0	CA	San_Diego	San_Diego
+517	Middle Eastern or South Asian	14	0	0	CA	San_Diego	San_Diego
+517	Native American	1	0	0	CA	San_Diego	San_Diego
+517	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+517	White	125	12.0	6.0	CA	San_Diego	San_Diego
+518	Asian	1	0	0	CA	San_Diego	San_Diego
+518	Black	12	1.0	1.0	CA	San_Diego	San_Diego
+518	Hispanic	39	6.0	1.0	CA	San_Diego	San_Diego
+518	Middle Eastern or South Asian	5	0	0	CA	San_Diego	San_Diego
+518	White	44	2.0	0	CA	San_Diego	San_Diego
+521	Asian	96	1.0	0	CA	San_Diego	San_Diego
+521	Black	814	158.0	50.0	CA	San_Diego	San_Diego
+521	Hispanic	868	117.0	36.0	CA	San_Diego	San_Diego
+521	Middle Eastern or South Asian	117	4.0	2.0	CA	San_Diego	San_Diego
+521	Native American	3	0	0	CA	San_Diego	San_Diego
+521	Pacific Islander	25	3.0	1.0	CA	San_Diego	San_Diego
+521	White	1100	118.0	36.0	CA	San_Diego	San_Diego
+522	Asian	18	0	0	CA	San_Diego	San_Diego
+522	Black	32	4.0	3.0	CA	San_Diego	San_Diego
+522	Hispanic	68	7.0	3.0	CA	San_Diego	San_Diego
+522	Middle Eastern or South Asian	14	1.0	0	CA	San_Diego	San_Diego
+522	Native American	1	0	0	CA	San_Diego	San_Diego
+522	Pacific Islander	3	1.0	1.0	CA	San_Diego	San_Diego
+522	White	151	2.0	1.0	CA	San_Diego	San_Diego
+523	Asian	65	1.0	0	CA	San_Diego	San_Diego
+523	Black	282	32.0	7.0	CA	San_Diego	San_Diego
+523	Hispanic	334	17.0	3.0	CA	San_Diego	San_Diego
+523	Middle Eastern or South Asian	149	4.0	1.0	CA	San_Diego	San_Diego
+523	Native American	3	0	0	CA	San_Diego	San_Diego
+523	Pacific Islander	14	1.0	0	CA	San_Diego	San_Diego
+523	White	724	11.0	4.0	CA	San_Diego	San_Diego
+524	Asian	94	1.0	0	CA	San_Diego	San_Diego
+524	Black	225	17.0	4.0	CA	San_Diego	San_Diego
+524	Hispanic	477	16.0	5.0	CA	San_Diego	San_Diego
+524	Middle Eastern or South Asian	127	2.0	0	CA	San_Diego	San_Diego
+524	Native American	5	0	0	CA	San_Diego	San_Diego
+524	Pacific Islander	20	0	0	CA	San_Diego	San_Diego
+524	White	1070	27.0	7.0	CA	San_Diego	San_Diego
+525	Asian	17	0	0	CA	San_Diego	San_Diego
+525	Black	42	1.0	0	CA	San_Diego	San_Diego
+525	Hispanic	63	1.0	0	CA	San_Diego	San_Diego
+525	Middle Eastern or South Asian	14	1.0	0	CA	San_Diego	San_Diego
+525	White	118	3.0	2.0	CA	San_Diego	San_Diego
+526	Asian	20	1.0	1.0	CA	San_Diego	San_Diego
+526	Black	30	3.0	2.0	CA	San_Diego	San_Diego
+526	Hispanic	115	5.0	1.0	CA	San_Diego	San_Diego
+526	Middle Eastern or South Asian	30	0	0	CA	San_Diego	San_Diego
+526	Native American	2	0	0	CA	San_Diego	San_Diego
+526	Pacific Islander	7	0	0	CA	San_Diego	San_Diego
+526	White	256	6.0	1.0	CA	San_Diego	San_Diego
+527	Asian	5	0	0	CA	San_Diego	San_Diego
+527	Black	4	0	0	CA	San_Diego	San_Diego
+527	Hispanic	20	2.0	1.0	CA	San_Diego	San_Diego
+527	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+527	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+527	White	35	0	0	CA	San_Diego	San_Diego
+528	Asian	10	0	0	CA	San_Diego	San_Diego
+528	Black	16	1.0	0	CA	San_Diego	San_Diego
+528	Hispanic	27	2.0	2.0	CA	San_Diego	San_Diego
+528	Middle Eastern or South Asian	9	0	0	CA	San_Diego	San_Diego
+528	Pacific Islander	2	1.0	1.0	CA	San_Diego	San_Diego
+528	White	83	2.0	2.0	CA	San_Diego	San_Diego
+529	Asian	32	1.0	0	CA	San_Diego	San_Diego
+529	Black	31	3.0	2.0	CA	San_Diego	San_Diego
+529	Hispanic	136	1.0	0	CA	San_Diego	San_Diego
+529	Middle Eastern or South Asian	18	0	0	CA	San_Diego	San_Diego
+529	Pacific Islander	7	0	0	CA	San_Diego	San_Diego
+529	White	222	13.0	4.0	CA	San_Diego	San_Diego
+531	Asian	14	0	0	CA	San_Diego	San_Diego
+531	Black	40	5.0	4.0	CA	San_Diego	San_Diego
+531	Hispanic	57	5.0	4.0	CA	San_Diego	San_Diego
+531	Middle Eastern or South Asian	14	0	0	CA	San_Diego	San_Diego
+531	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+531	White	125	5.0	3.0	CA	San_Diego	San_Diego
+541	Asian	5	0	0	CA	San_Diego	San_Diego
+541	Black	24	7.0	1.0	CA	San_Diego	San_Diego
+541	Hispanic	23	4.0	3.0	CA	San_Diego	San_Diego
+541	Middle Eastern or South Asian	4	0	0	CA	San_Diego	San_Diego
+541	Native American	1	0	0	CA	San_Diego	San_Diego
+541	White	37	7.0	1.0	CA	San_Diego	San_Diego
+611	Asian	52	2.0	1.0	CA	San_Diego	San_Diego
+611	Black	302	85.0	24.0	CA	San_Diego	San_Diego
+611	Hispanic	422	66.0	29.0	CA	San_Diego	San_Diego
+611	Middle Eastern or South Asian	46	1.0	0	CA	San_Diego	San_Diego
+611	Native American	4	2.0	1.0	CA	San_Diego	San_Diego
+611	Pacific Islander	16	3.0	1.0	CA	San_Diego	San_Diego
+611	White	1067	178.0	61.0	CA	San_Diego	San_Diego
+612	Asian	2	0	0	CA	San_Diego	San_Diego
+612	Black	9	1.0	1.0	CA	San_Diego	San_Diego
+612	Hispanic	18	1.0	0	CA	San_Diego	San_Diego
+612	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+612	White	51	2.0	1.0	CA	San_Diego	San_Diego
+613	Asian	22	1.0	1.0	CA	San_Diego	San_Diego
+613	Black	53	8.0	1.0	CA	San_Diego	San_Diego
+613	Hispanic	97	8.0	2.0	CA	San_Diego	San_Diego
+613	Middle Eastern or South Asian	12	0	0	CA	San_Diego	San_Diego
+613	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+613	White	379	37.0	16.0	CA	San_Diego	San_Diego
+614	Asian	22	1.0	0	CA	San_Diego	San_Diego
+614	Black	69	9.0	5.0	CA	San_Diego	San_Diego
+614	Hispanic	167	21.0	9.0	CA	San_Diego	San_Diego
+614	Middle Eastern or South Asian	20	0	0	CA	San_Diego	San_Diego
+614	Pacific Islander	9	0	0	CA	San_Diego	San_Diego
+614	White	568	76.0	26.0	CA	San_Diego	San_Diego
+615	Asian	3	1.0	1.0	CA	San_Diego	San_Diego
+615	Hispanic	33	1.0	0	CA	San_Diego	San_Diego
+615	Middle Eastern or South Asian	6	0	0	CA	San_Diego	San_Diego
+615	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+615	White	158	9.0	2.0	CA	San_Diego	San_Diego
+617	Hispanic	5	1.0	0	CA	San_Diego	San_Diego
+617	Middle Eastern or South Asian	1	0	0	CA	San_Diego	San_Diego
+617	White	9	0	0	CA	San_Diego	San_Diego
+618	Asian	3	0	0	CA	San_Diego	San_Diego
+618	Black	12	4.0	2.0	CA	San_Diego	San_Diego
+618	Hispanic	13	4.0	1.0	CA	San_Diego	San_Diego
+618	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+618	White	25	4.0	0	CA	San_Diego	San_Diego
+621	Asian	114	9.0	3.0	CA	San_Diego	San_Diego
+621	Black	135	24.0	8.0	CA	San_Diego	San_Diego
+621	Hispanic	402	35.0	16.0	CA	San_Diego	San_Diego
+621	Middle Eastern or South Asian	38	4.0	0	CA	San_Diego	San_Diego
+621	Pacific Islander	20	1.0	0	CA	San_Diego	San_Diego
+621	White	342	24.0	4.0	CA	San_Diego	San_Diego
+622	Asian	5	0	0	CA	San_Diego	San_Diego
+622	Black	41	6.0	0	CA	San_Diego	San_Diego
+622	Hispanic	65	5.0	2.0	CA	San_Diego	San_Diego
+622	Middle Eastern or South Asian	11	0	0	CA	San_Diego	San_Diego
+622	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+622	White	145	22.0	5.0	CA	San_Diego	San_Diego
+623	Asian	37	1.0	1.0	CA	San_Diego	San_Diego
+623	Black	88	22.0	7.0	CA	San_Diego	San_Diego
+623	Hispanic	114	16.0	5.0	CA	San_Diego	San_Diego
+623	Middle Eastern or South Asian	29	2.0	0	CA	San_Diego	San_Diego
+623	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+623	White	219	42.0	18.0	CA	San_Diego	San_Diego
+624	Asian	18	0	0	CA	San_Diego	San_Diego
+624	Black	38	6.0	0	CA	San_Diego	San_Diego
+624	Hispanic	66	11.0	3.0	CA	San_Diego	San_Diego
+624	Middle Eastern or South Asian	11	1.0	0	CA	San_Diego	San_Diego
+624	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+624	White	127	9.0	9.0	CA	San_Diego	San_Diego
+625	Asian	8	0	0	CA	San_Diego	San_Diego
+625	Black	55	21.0	11.0	CA	San_Diego	San_Diego
+625	Hispanic	70	14.0	2.0	CA	San_Diego	San_Diego
+625	Middle Eastern or South Asian	11	2.0	2.0	CA	San_Diego	San_Diego
+625	Native American	1	0	0	CA	San_Diego	San_Diego
+625	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+625	White	154	30.0	14.0	CA	San_Diego	San_Diego
+626	Asian	8	1.0	0	CA	San_Diego	San_Diego
+626	Black	11	1.0	0	CA	San_Diego	San_Diego
+626	Hispanic	31	1.0	0	CA	San_Diego	San_Diego
+626	Middle Eastern or South Asian	11	0	0	CA	San_Diego	San_Diego
+626	Native American	1	0	0	CA	San_Diego	San_Diego
+626	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+626	White	110	4.0	2.0	CA	San_Diego	San_Diego
+627	Asian	66	0	0	CA	San_Diego	San_Diego
+627	Black	153	17.0	2.0	CA	San_Diego	San_Diego
+627	Hispanic	300	26.0	6.0	CA	San_Diego	San_Diego
+627	Middle Eastern or South Asian	61	0	0	CA	San_Diego	San_Diego
+627	Native American	1	0	0	CA	San_Diego	San_Diego
+627	Pacific Islander	9	1.0	1.0	CA	San_Diego	San_Diego
+627	White	729	37.0	8.0	CA	San_Diego	San_Diego
+628	Asian	6	0	0	CA	San_Diego	San_Diego
+628	Black	8	3.0	2.0	CA	San_Diego	San_Diego
+628	Hispanic	19	3.0	0	CA	San_Diego	San_Diego
+628	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+628	White	46	8.0	2.0	CA	San_Diego	San_Diego
+711	Asian	5	0	0	CA	San_Diego	San_Diego
+711	Black	2	0	0	CA	San_Diego	San_Diego
+711	Hispanic	31	5.0	0	CA	San_Diego	San_Diego
+711	Native American	1	0	0	CA	San_Diego	San_Diego
+711	White	15	1.0	0	CA	San_Diego	San_Diego
+712	Asian	59	2.0	0	CA	San_Diego	San_Diego
+712	Black	121	7.0	1.0	CA	San_Diego	San_Diego
+712	Hispanic	2171	91.0	29.0	CA	San_Diego	San_Diego
+712	Middle Eastern or South Asian	54	0	0	CA	San_Diego	San_Diego
+712	Native American	1	0	0	CA	San_Diego	San_Diego
+712	Pacific Islander	9	0	0	CA	San_Diego	San_Diego
+712	White	404	9.0	4.0	CA	San_Diego	San_Diego
+713	Asian	22	0	0	CA	San_Diego	San_Diego
+713	Black	25	0	0	CA	San_Diego	San_Diego
+713	Hispanic	445	12.0	0	CA	San_Diego	San_Diego
+713	Middle Eastern or South Asian	11	0	0	CA	San_Diego	San_Diego
+713	Native American	2	0	0	CA	San_Diego	San_Diego
+713	Pacific Islander	8	0	0	CA	San_Diego	San_Diego
+713	White	330	3.0	0	CA	San_Diego	San_Diego
+714	Asian	4	0	0	CA	San_Diego	San_Diego
+714	Black	12	0	0	CA	San_Diego	San_Diego
+714	Hispanic	210	4.0	1.0	CA	San_Diego	San_Diego
+714	Middle Eastern or South Asian	4	0	0	CA	San_Diego	San_Diego
+714	White	72	0	0	CA	San_Diego	San_Diego
+721	Asian	23	1.0	0	CA	San_Diego	San_Diego
+721	Black	47	5.0	3.0	CA	San_Diego	San_Diego
+721	Hispanic	364	27.0	6.0	CA	San_Diego	San_Diego
+721	Middle Eastern or South Asian	2	0	0	CA	San_Diego	San_Diego
+721	Pacific Islander	11	1.0	1.0	CA	San_Diego	San_Diego
+721	White	167	22.0	4.0	CA	San_Diego	San_Diego
+722	Asian	16	0	0	CA	San_Diego	San_Diego
+722	Black	44	5.0	2.0	CA	San_Diego	San_Diego
+722	Hispanic	343	29.0	11.0	CA	San_Diego	San_Diego
+722	Middle Eastern or South Asian	4	0	0	CA	San_Diego	San_Diego
+722	Pacific Islander	5	0	0	CA	San_Diego	San_Diego
+722	White	139	15.0	2.0	CA	San_Diego	San_Diego
+723	Asian	68	1.0	0	CA	San_Diego	San_Diego
+723	Black	83	7.0	1.0	CA	San_Diego	San_Diego
+723	Hispanic	1030	73.0	15.0	CA	San_Diego	San_Diego
+723	Middle Eastern or South Asian	7	0	0	CA	San_Diego	San_Diego
+723	Pacific Islander	10	2.0	0	CA	San_Diego	San_Diego
+723	White	180	13.0	2.0	CA	San_Diego	San_Diego
+724	Asian	22	0	1.0	CA	San_Diego	San_Diego
+724	Black	48	7.0	2.0	CA	San_Diego	San_Diego
+724	Hispanic	456	40.0	15.0	CA	San_Diego	San_Diego
+724	Middle Eastern or South Asian	5	0	0	CA	San_Diego	San_Diego
+724	Native American	1	1.0	0	CA	San_Diego	San_Diego
+724	Pacific Islander	7	0	0	CA	San_Diego	San_Diego
+724	White	82	10.0	2.0	CA	San_Diego	San_Diego
+725	Asian	25	2.0	0	CA	San_Diego	San_Diego
+725	Black	25	1.0	0	CA	San_Diego	San_Diego
+725	Hispanic	259	12.0	2.0	CA	San_Diego	San_Diego
+725	Middle Eastern or South Asian	4	0	0	CA	San_Diego	San_Diego
+725	Native American	1	0	0	CA	San_Diego	San_Diego
+725	Pacific Islander	5	0	0	CA	San_Diego	San_Diego
+725	White	86	3.0	0	CA	San_Diego	San_Diego
+811	Asian	18	1.0	1.0	CA	San_Diego	San_Diego
+811	Black	48	6.0	3.0	CA	San_Diego	San_Diego
+811	Hispanic	111	10.0	3.0	CA	San_Diego	San_Diego
+811	Middle Eastern or South Asian	14	0	0	CA	San_Diego	San_Diego
+811	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+811	White	99	8.0	2.0	CA	San_Diego	San_Diego
+812	Asian	2	0	0	CA	San_Diego	San_Diego
+812	Black	1	0	0	CA	San_Diego	San_Diego
+812	Hispanic	8	0	0	CA	San_Diego	San_Diego
+812	White	12	0	0	CA	San_Diego	San_Diego
+813	Asian	57	4.0	0	CA	San_Diego	San_Diego
+813	Black	227	29.0	5.0	CA	San_Diego	San_Diego
+813	Hispanic	416	48.0	22.0	CA	San_Diego	San_Diego
+813	Middle Eastern or South Asian	47	2.0	2.0	CA	San_Diego	San_Diego
+813	Native American	3	1.0	0	CA	San_Diego	San_Diego
+813	Pacific Islander	10	1.0	0	CA	San_Diego	San_Diego
+813	White	570	37.0	10.0	CA	San_Diego	San_Diego
+814	Asian	2	0	0	CA	San_Diego	San_Diego
+814	Black	15	0	0	CA	San_Diego	San_Diego
+814	Hispanic	28	1.0	1.0	CA	San_Diego	San_Diego
+814	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+814	Pacific Islander	2	1.0	1.0	CA	San_Diego	San_Diego
+814	White	91	4.0	1.0	CA	San_Diego	San_Diego
+821	Asian	53	2.0	0	CA	San_Diego	San_Diego
+821	Black	183	24.0	16.0	CA	San_Diego	San_Diego
+821	Hispanic	169	11.0	5.0	CA	San_Diego	San_Diego
+821	Middle Eastern or South Asian	44	0	0	CA	San_Diego	San_Diego
+821	Native American	1	0	0	CA	San_Diego	San_Diego
+821	Pacific Islander	11	0	0	CA	San_Diego	San_Diego
+821	White	442	16.0	10.0	CA	San_Diego	San_Diego
+822	Asian	32	3.0	1.0	CA	San_Diego	San_Diego
+822	Black	126	19.0	3.0	CA	San_Diego	San_Diego
+822	Hispanic	121	17.0	7.0	CA	San_Diego	San_Diego
+822	Middle Eastern or South Asian	19	0	0	CA	San_Diego	San_Diego
+822	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+822	White	78	14.0	5.0	CA	San_Diego	San_Diego
+823	Asian	16	1.0	2.0	CA	San_Diego	San_Diego
+823	Black	42	7.0	6.0	CA	San_Diego	San_Diego
+823	Hispanic	80	11.0	15.0	CA	San_Diego	San_Diego
+823	Middle Eastern or South Asian	5	0	0	CA	San_Diego	San_Diego
+823	Pacific Islander	4	1.0	1.0	CA	San_Diego	San_Diego
+823	White	30	5.0	9.0	CA	San_Diego	San_Diego
+824	Asian	62	7.0	4.0	CA	San_Diego	San_Diego
+824	Black	132	22.0	11.0	CA	San_Diego	San_Diego
+824	Hispanic	167	25.0	10.0	CA	San_Diego	San_Diego
+824	Middle Eastern or South Asian	17	3.0	0	CA	San_Diego	San_Diego
+824	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+824	White	119	10.0	9.0	CA	San_Diego	San_Diego
+825	Asian	19	4.0	2.0	CA	San_Diego	San_Diego
+825	Black	45	4.0	0	CA	San_Diego	San_Diego
+825	Hispanic	98	5.0	5.0	CA	San_Diego	San_Diego
+825	Middle Eastern or South Asian	11	0	0	CA	San_Diego	San_Diego
+825	Pacific Islander	1	1.0	0	CA	San_Diego	San_Diego
+825	White	104	5.0	3.0	CA	San_Diego	San_Diego
+826	Asian	152	32.0	28.0	CA	San_Diego	San_Diego
+826	Black	397	66.0	80.0	CA	San_Diego	San_Diego
+826	Hispanic	396	64.0	71.0	CA	San_Diego	San_Diego
+826	Middle Eastern or South Asian	20	2.0	7.0	CA	San_Diego	San_Diego
+826	Native American	1	0	0	CA	San_Diego	San_Diego
+826	Pacific Islander	7	1.0	1.0	CA	San_Diego	San_Diego
+826	White	115	27.0	16.0	CA	San_Diego	San_Diego
+827	Asian	27	5.0	1.0	CA	San_Diego	San_Diego
+827	Black	53	13.0	3.0	CA	San_Diego	San_Diego
+827	Hispanic	52	13.0	5.0	CA	San_Diego	San_Diego
+827	Middle Eastern or South Asian	8	2.0	1.0	CA	San_Diego	San_Diego
+827	Pacific Islander	4	1.0	0	CA	San_Diego	San_Diego
+827	White	12	1.0	0	CA	San_Diego	San_Diego
+828	Asian	4	1.0	0	CA	San_Diego	San_Diego
+828	Black	19	2.0	0	CA	San_Diego	San_Diego
+828	Hispanic	30	4.0	5.0	CA	San_Diego	San_Diego
+828	Middle Eastern or South Asian	2	0	0	CA	San_Diego	San_Diego
+828	White	16	2.0	2.0	CA	San_Diego	San_Diego
+829	Asian	1	0	0	CA	San_Diego	San_Diego
+829	Black	2	0	0	CA	San_Diego	San_Diego
+829	Hispanic	1	0	0	CA	San_Diego	San_Diego
+831	Asian	115	32.0	6.0	CA	San_Diego	San_Diego
+831	Black	216	46.0	16.0	CA	San_Diego	San_Diego
+831	Hispanic	320	69.0	26.0	CA	San_Diego	San_Diego
+831	Middle Eastern or South Asian	18	2.0	1.0	CA	San_Diego	San_Diego
+831	Native American	2	1.0	0	CA	San_Diego	San_Diego
+831	Pacific Islander	5	0	0	CA	San_Diego	San_Diego
+831	White	117	23.0	9.0	CA	San_Diego	San_Diego
+832	Asian	55	10.0	9.0	CA	San_Diego	San_Diego
+832	Black	155	39.0	13.0	CA	San_Diego	San_Diego
+832	Hispanic	316	66.0	17.0	CA	San_Diego	San_Diego
+832	Middle Eastern or South Asian	21	1.0	0	CA	San_Diego	San_Diego
+832	Pacific Islander	5	3.0	1.0	CA	San_Diego	San_Diego
+832	White	109	16.0	12.0	CA	San_Diego	San_Diego
+833	Asian	40	8.0	5.0	CA	San_Diego	San_Diego
+833	Black	80	25.0	8.0	CA	San_Diego	San_Diego
+833	Hispanic	135	17.0	10.0	CA	San_Diego	San_Diego
+833	Middle Eastern or South Asian	7	1.0	0	CA	San_Diego	San_Diego
+833	Native American	1	1.0	1.0	CA	San_Diego	San_Diego
+833	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+833	White	40	7.0	2.0	CA	San_Diego	San_Diego
+834	Asian	48	5.0	2.0	CA	San_Diego	San_Diego
+834	Black	83	13.0	4.0	CA	San_Diego	San_Diego
+834	Hispanic	220	25.0	10.0	CA	San_Diego	San_Diego
+834	Middle Eastern or South Asian	15	5.0	2.0	CA	San_Diego	San_Diego
+834	Native American	3	0	0	CA	San_Diego	San_Diego
+834	Pacific Islander	3	0	0	CA	San_Diego	San_Diego
+834	White	84	11.0	3.0	CA	San_Diego	San_Diego
+835	Asian	13	0	0	CA	San_Diego	San_Diego
+835	Black	38	14.0	2.0	CA	San_Diego	San_Diego
+835	Hispanic	71	12.0	5.0	CA	San_Diego	San_Diego
+835	Middle Eastern or South Asian	5	0	0	CA	San_Diego	San_Diego
+835	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+835	White	30	4.0	1.0	CA	San_Diego	San_Diego
+836	Asian	11	5.0	5.0	CA	San_Diego	San_Diego
+836	Black	31	10.0	4.0	CA	San_Diego	San_Diego
+836	Hispanic	50	8.0	0	CA	San_Diego	San_Diego
+836	White	17	7.0	0	CA	San_Diego	San_Diego
+837	Asian	8	3.0	0	CA	San_Diego	San_Diego
+837	Black	14	1.0	0	CA	San_Diego	San_Diego
+837	Hispanic	46	5.0	1.0	CA	San_Diego	San_Diego
+837	Middle Eastern or South Asian	2	1.0	0	CA	San_Diego	San_Diego
+837	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+837	White	16	7.0	3.0	CA	San_Diego	San_Diego
+838	Asian	28	6.0	1.0	CA	San_Diego	San_Diego
+838	Black	110	12.0	3.0	CA	San_Diego	San_Diego
+838	Hispanic	238	65.0	28.0	CA	San_Diego	San_Diego
+838	Middle Eastern or South Asian	11	1.0	0	CA	San_Diego	San_Diego
+838	Native American	1	0	0	CA	San_Diego	San_Diego
+838	Pacific Islander	4	0	0	CA	San_Diego	San_Diego
+838	White	95	18.0	7.0	CA	San_Diego	San_Diego
+839	Asian	2	0	0	CA	San_Diego	San_Diego
+839	Black	21	3.0	1.0	CA	San_Diego	San_Diego
+839	Hispanic	68	15.0	4.0	CA	San_Diego	San_Diego
+839	Middle Eastern or South Asian	4	0	0	CA	San_Diego	San_Diego
+839	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+839	White	23	4.0	0	CA	San_Diego	San_Diego
+841	Asian	3	0	0	CA	San_Diego	San_Diego
+841	Black	17	2.0	2.0	CA	San_Diego	San_Diego
+841	Hispanic	7	1.0	0	CA	San_Diego	San_Diego
+841	Middle Eastern or South Asian	3	0	0	CA	San_Diego	San_Diego
+841	Native American	1	0	0	CA	San_Diego	San_Diego
+841	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+841	White	14	1.0	2.0	CA	San_Diego	San_Diego
+931	Asian	225	2.0	0	CA	San_Diego	San_Diego
+931	Black	83	7.0	2.0	CA	San_Diego	San_Diego
+931	Hispanic	253	13.0	2.0	CA	San_Diego	San_Diego
+931	Middle Eastern or South Asian	99	1.0	0	CA	San_Diego	San_Diego
+931	Native American	1	0	0	CA	San_Diego	San_Diego
+931	Pacific Islander	12	1.0	0	CA	San_Diego	San_Diego
+931	White	472	9.0	4.0	CA	San_Diego	San_Diego
+932	Asian	10	0	0	CA	San_Diego	San_Diego
+932	Black	6	1.0	0	CA	San_Diego	San_Diego
+932	Hispanic	14	3.0	2.0	CA	San_Diego	San_Diego
+932	Middle Eastern or South Asian	6	0	0	CA	San_Diego	San_Diego
+932	Native American	1	0	0	CA	San_Diego	San_Diego
+932	White	33	5.0	2.0	CA	San_Diego	San_Diego
+933	Asian	61	1.0	0	CA	San_Diego	San_Diego
+933	Black	36	3.0	2.0	CA	San_Diego	San_Diego
+933	Hispanic	93	7.0	1.0	CA	San_Diego	San_Diego
+933	Middle Eastern or South Asian	41	1.0	0	CA	San_Diego	San_Diego
+933	Pacific Islander	6	0	0	CA	San_Diego	San_Diego
+933	White	328	15.0	5.0	CA	San_Diego	San_Diego
+934	Asian	225	4.0	2.0	CA	San_Diego	San_Diego
+934	Black	83	3.0	0	CA	San_Diego	San_Diego
+934	Hispanic	213	14.0	2.0	CA	San_Diego	San_Diego
+934	Middle Eastern or South Asian	130	4.0	0	CA	San_Diego	San_Diego
+934	Native American	3	0	0	CA	San_Diego	San_Diego
+934	Pacific Islander	13	0	0	CA	San_Diego	San_Diego
+934	White	801	36.0	16.0	CA	San_Diego	San_Diego
+935	Asian	15	0	0	CA	San_Diego	San_Diego
+935	Black	4	0	0	CA	San_Diego	San_Diego
+935	Hispanic	25	4.0	0	CA	San_Diego	San_Diego
+935	Middle Eastern or South Asian	11	0	0	CA	San_Diego	San_Diego
+935	White	96	4.0	1.0	CA	San_Diego	San_Diego
+936	Asian	7	1.0	0	CA	San_Diego	San_Diego
+936	Black	1	0	0	CA	San_Diego	San_Diego
+936	Hispanic	8	3.0	0	CA	San_Diego	San_Diego
+936	Middle Eastern or South Asian	5	0	0	CA	San_Diego	San_Diego
+936	Pacific Islander	1	0	0	CA	San_Diego	San_Diego
+936	White	21	0	0	CA	San_Diego	San_Diego
+937	Asian	31	0	0	CA	San_Diego	San_Diego
+937	Black	10	0	0	CA	San_Diego	San_Diego
+937	Hispanic	55	2.0	0	CA	San_Diego	San_Diego
+937	Middle Eastern or South Asian	29	0	0	CA	San_Diego	San_Diego
+937	Native American	2	0	0	CA	San_Diego	San_Diego
+937	Pacific Islander	2	0	0	CA	San_Diego	San_Diego
+937	White	144	3.0	3.0	CA	San_Diego	San_Diego
+999	Asian	215	3.0	1.0	CA	San_Diego	San_Diego
+999	Black	409	36.0	15.0	CA	San_Diego	San_Diego
+999	Hispanic	1116	57.0	15.0	CA	San_Diego	San_Diego
+999	Middle Eastern or South Asian	133	1.0	0	CA	San_Diego	San_Diego
+999	Native American	1	0	0	CA	San_Diego	San_Diego
+999	Pacific Islander	37	3.0	1.0	CA	San_Diego	San_Diego
+999	White	1086	32.0	8.0	CA	San_Diego	San_Diego
